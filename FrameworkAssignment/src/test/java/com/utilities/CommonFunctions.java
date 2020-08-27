@@ -60,8 +60,8 @@ public class CommonFunctions extends Staticvariables {
 		if (browserName.equalsIgnoreCase("Chrome")) {
 			// Chrome
 //			System.setProperty("webdriver.chrome.driver", ".\\BrowserDrivers\\chromedriver.exe");
-//			WebDriverManager.chromedriver().setup();
-			WebDriverManager.chromedriver().version("83").setup();
+			WebDriverManager.chromedriver().setup();
+//			WebDriverManager.chromedriver().version("83").setup();
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("Firefox")) {
 			// Firefox browser

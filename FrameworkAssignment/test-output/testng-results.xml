@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28507" started-at="2020-06-11T15:27:37 IST" finished-at="2020-06-11T15:28:05 IST">
+  <suite name="Default suite" duration-ms="55665" started-at="2020-08-27T23:14:52 IST" finished-at="2020-08-27T23:15:48 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28507" started-at="2020-06-11T15:27:37 IST" finished-at="2020-06-11T15:28:05 IST">
-      <class name="com.testscenarios.FB_login">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.testscenarios.FB_login@57e1b0c]" name="beforeClass" is-config="true" duration-ms="5198" started-at="2020-06-11T15:27:37 IST" finished-at="2020-06-11T15:27:42 IST">
+    <test name="Default test" duration-ms="55665" started-at="2020-08-27T23:14:52 IST" finished-at="2020-08-27T23:15:48 IST">
+      <class name="com.testscenarios.Blazedemo">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.testscenarios.Blazedemo@7a765367]" name="beforeClass" is-config="true" duration-ms="5067" started-at="2020-08-27T23:14:53 IST" finished-at="2020-08-27T23:14:58 IST">
           <params>
             <param index="0">
               <value>
@@ -18,41 +18,56 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC_001()[pri:0, instance:com.testscenarios.FB_login@57e1b0c]" name="TC_001" duration-ms="7256" started-at="2020-06-11T15:27:42 IST" finished-at="2020-06-11T15:27:49 IST">
+        <test-method status="PASS" signature="TC_001_FilghtSearch()[pri:0, instance:com.testscenarios.Blazedemo@7a765367]" name="TC_001_FilghtSearch" duration-ms="16758" started-at="2020-08-27T23:14:58 IST" finished-at="2020-08-27T23:15:14 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_001 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testscenarios.FB_login@57e1b0c]" name="afterMethod" is-config="true" duration-ms="14782" started-at="2020-06-11T15:27:49 IST" finished-at="2020-06-11T15:28:04 IST">
+        </test-method> <!-- TC_001_FilghtSearch -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testscenarios.Blazedemo@7a765367]" name="afterMethod" is-config="true" duration-ms="331" started-at="2020-08-27T23:15:14 IST" finished-at="2020-08-27T23:15:15 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_001 status=SUCCESS method=FB_login.TC_001()[pri:0, instance:com.testscenarios.FB_login@57e1b0c] output={null}]]]>
+                <![CDATA[[TestResult name=TC_001_FilghtSearch status=SUCCESS method=Blazedemo.TC_001_FilghtSearch()[pri:0, instance:com.testscenarios.Blazedemo@7a765367] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="TC_002()[pri:0, instance:com.testscenarios.FB_login@57e1b0c]" name="TC_002" duration-ms="4" started-at="2020-06-11T15:28:04 IST" finished-at="2020-06-11T15:28:04 IST">
+        <test-method status="PASS" signature="TC_002_UserDetails()[pri:0, instance:com.testscenarios.Blazedemo@7a765367]" name="TC_002_UserDetails" duration-ms="14069" started-at="2020-08-27T23:15:15 IST" finished-at="2020-08-27T23:15:29 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_002 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testscenarios.FB_login@57e1b0c]" name="afterMethod" is-config="true" duration-ms="437" started-at="2020-06-11T15:28:04 IST" finished-at="2020-06-11T15:28:05 IST">
+        </test-method> <!-- TC_002_UserDetails -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testscenarios.Blazedemo@7a765367]" name="afterMethod" is-config="true" duration-ms="321" started-at="2020-08-27T23:15:29 IST" finished-at="2020-08-27T23:15:29 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_002 status=SUCCESS method=FB_login.TC_002()[pri:0, instance:com.testscenarios.FB_login@57e1b0c] output={null}]]]>
+                <![CDATA[[TestResult name=TC_002_UserDetails status=SUCCESS method=Blazedemo.TC_002_UserDetails()[pri:0, instance:com.testscenarios.Blazedemo@7a765367] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testscenarios.FB_login@57e1b0c]" name="afterClass" is-config="true" duration-ms="784" started-at="2020-06-11T15:28:05 IST" finished-at="2020-06-11T15:28:05 IST">
+        <test-method status="PASS" signature="TC_003_VerifyAndPrintMessages()[pri:0, instance:com.testscenarios.Blazedemo@7a765367]" name="TC_003_VerifyAndPrintMessages" duration-ms="18101" started-at="2020-08-27T23:15:29 IST" finished-at="2020-08-27T23:15:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_VerifyAndPrintMessages -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testscenarios.Blazedemo@7a765367]" name="afterMethod" is-config="true" duration-ms="292" started-at="2020-08-27T23:15:47 IST" finished-at="2020-08-27T23:15:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_003_VerifyAndPrintMessages status=SUCCESS method=Blazedemo.TC_003_VerifyAndPrintMessages()[pri:0, instance:com.testscenarios.Blazedemo@7a765367] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testscenarios.Blazedemo@7a765367]" name="afterClass" is-config="true" duration-ms="680" started-at="2020-08-27T23:15:47 IST" finished-at="2020-08-27T23:15:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.testscenarios.FB_login -->
+      </class> <!-- com.testscenarios.Blazedemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,0 +1,5 @@
+com\testscenarios\Blazedemo.class
+com\testscenarios\ClassTemplate.class
+com\utilities\Staticvariables.class
+com\objectrepository\Locators.class
+com\utilities\CommonFunctions.class
